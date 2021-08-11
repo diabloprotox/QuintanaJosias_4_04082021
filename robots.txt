@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://diabloprotox.github.io/QuintanaJosias_4_04082021/sitemap.xml
