@@ -37,3 +37,9 @@ Header unset Cache-Control
 </FilesMatch>
 </IfModule>
 # END Cache-Control Headers
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^diabloprotox.github.io/projet4/
+
+RewriteRule (.*) https://www.diabloprotox.github.io/projet4/$1 [R=301,L]
